@@ -1,8 +1,16 @@
-[
-  {
+{
+  "goods": [
+    {
     "category":"",
     "name":"TEST",
     "gold_code":"1111",
     "img":""
-  }
-]
+  },
+  {
+    "category":"",
+    "name":"TEST2",
+    "gold_code":"2222",
+    "img":""
+  },
+  ]
+}
