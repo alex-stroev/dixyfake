@@ -1,11 +1,8 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "category":"",
+    "name":"TEST",
+    "gold_code":"1111",
+    "img":""
   }
-}
+]
