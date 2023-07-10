@@ -1,22 +1,1404 @@
 {
-   "users": [
-      {
-         "id": 1,
-         "firstName": "Sachin",
-         "lastName": "Tendulkar",
-         "age": 45
-      },
-      {
-         "id": 2,
-         "firstName": "Alastair",
-         "lastName": "Cook",
-         "age": 37
-      },
-      {
-         "id": 3,
-         "firstName": "Steve",
-         "lastName": "Smith",
-         "age": 32
-      }
-   ]
+  "goods": [
+    {
+      "name": "Товар 1",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 20294,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 2",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 194897,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 3",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 5239,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 4",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 76405,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 5",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 61384,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 6",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 98345,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 7",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 223542,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 8",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 205457,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 9",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 97041,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 10",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 247853,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 11",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 249725,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 12",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 48913,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 13",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 152298,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 14",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 8631,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 15",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 264088,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 16",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 107853,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 17",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 124897,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 18",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 9859,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 19",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 244925,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 20",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 167453,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 21",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 188411,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 22",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 98002,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 23",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 289377,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 24",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 213873,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 25",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 59874,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 26",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 103375,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 27",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 148755,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 28",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 225497,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 29",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 176536,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 30",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 75282,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 31",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 261903,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 32",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 207433,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 33",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 101387,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 34",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 246304,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 35",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 134420,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 36",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 57975,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 37",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 65441,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 38",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 163419,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 39",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 106136,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 40",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 49954,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 41",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 197806,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 42",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 264789,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 43",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 208173,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 44",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 116605,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 45",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 159684,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 46",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 181651,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 47",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 15241,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 48",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 124701,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 49",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 77851,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 50",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 213467,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 51",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 257957,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 52",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 213687,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 53",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 186398,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 54",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 91189,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 55",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 131499,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 56",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 179888,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 57",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 42045,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 58",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 126239,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 59",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 242299,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 60",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 221763,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 61",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 51405,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 62",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 133663,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 63",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 202654,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 64",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 175013,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 65",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 188508,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 66",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 298495,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 67",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 288633,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 68",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 184184,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 69",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 138114,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 70",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 204784,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 71",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 56635,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 72",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 98602,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 73",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 289637,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 74",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 135697,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 75",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 35412,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 76",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 247223,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 77",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 283336,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 78",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 212825,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 79",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 182272,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 80",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 25610,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 81",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 295497,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 82",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 37967,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 83",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 121983,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 84",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 103441,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 85",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 91855,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 86",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 199562,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 87",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 144292,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 88",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 205265,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 89",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 247851,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 90",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 70974,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 91",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 265468,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 92",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 42993,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 93",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 5862,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 94",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 147655,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 95",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 111304,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 96",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 97241,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 97",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 18624,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 98",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 55664,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 99",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 55918,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 100",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 91738,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 101",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 240409,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 102",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 209613,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 103",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 37985,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 104",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 154329,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 105",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 261054,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 106",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 114023,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 107",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 162957,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 108",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 175201,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 109",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 207697,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 110",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 96847,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 111",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 76435,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 112",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 291718,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 113",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 189512,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 114",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 71033,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 115",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 128415,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 116",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 88432,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 117",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 38817,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 118",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 212425,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 119",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 11311,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 120",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 108825,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 121",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 276794,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 122",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 196535,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 123",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 177153,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 124",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 284309,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 125",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 228110,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 126",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 98397,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 127",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 2061,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 128",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 78586,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 129",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 102679,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 130",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 125789,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 131",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 98964,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 132",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 258308,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 133",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 231303,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 134",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 208782,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 135",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 265932,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 136",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 178717,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 137",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 271030,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 138",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 129742,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 139",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 207307,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 140",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 173884,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 141",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 120970,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 142",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 231423,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 143",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 42025,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 144",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 257048,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 145",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 80090,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 146",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 195360,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 147",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 126688,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 148",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 267992,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 149",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 123612,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 150",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 16884,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 151",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 144485,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 152",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 284595,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 153",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 272939,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 154",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 133506,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 155",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 217250,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 156",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 275997,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 157",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 226748,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 158",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 228971,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 159",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 203224,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 160",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 12222,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 161",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 115004,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 162",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 128914,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 163",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 174305,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 164",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 180614,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 165",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 28254,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 166",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 71414,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 167",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 57205,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 168",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 97338,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 169",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 285107,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 170",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 231825,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 171",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 262704,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 172",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 168927,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 173",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 82697,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 174",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 208478,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 175",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 277863,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 176",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 200638,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 177",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 141548,
+      "img": "https://placehold.co/400x400@2x/gold/white.png"
+    },
+    {
+      "name": "Товар 178",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 3077,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 179",
+      "category": "фреш",
+      "brand": "мореслав",
+      "gold_code": 234623,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 180",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 279011,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 181",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 185476,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 182",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 30976,
+      "img": "https://placehold.co/400x400@2x/pink/white.png"
+    },
+    {
+      "name": "Товар 183",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 65369,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 184",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 225395,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 185",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 158609,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 186",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 186780,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 187",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 231094,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 188",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 35953,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 189",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 41339,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 190",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 143028,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 191",
+      "category": "фреш",
+      "brand": "круглое лето",
+      "gold_code": 263705,
+      "img": "https://placehold.co/400x400@2x/red/white.png"
+    },
+    {
+      "name": "Товар 192",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 195901,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 193",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 99019,
+      "img": "https://placehold.co/400x400@2x/olive/white.png"
+    },
+    {
+      "name": "Товар 194",
+      "category": "бакалея",
+      "brand": "мореслав",
+      "gold_code": 288646,
+      "img": "https://placehold.co/400x400@2x/teal/white.png"
+    },
+    {
+      "name": "Товар 195",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 174429,
+      "img": "https://placehold.co/400x400@2x/yellow/white.png"
+    },
+    {
+      "name": "Товар 196",
+      "category": "фреш",
+      "brand": "хуторок",
+      "gold_code": 55582,
+      "img": "https://placehold.co/400x400@2x/orchid/white.png"
+    },
+    {
+      "name": "Товар 197",
+      "category": "бакалея",
+      "brand": "хуторок",
+      "gold_code": 195350,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    },
+    {
+      "name": "Товар 198",
+      "category": "фреш",
+      "brand": "мясоедов",
+      "gold_code": 17317,
+      "img": "https://placehold.co/400x400@2x/aqua/white.png"
+    },
+    {
+      "name": "Товар 199",
+      "category": "бакалея",
+      "brand": "круглое лето",
+      "gold_code": 263128,
+      "img": "https://placehold.co/400x400@2x/orange/white.png"
+    },
+    {
+      "name": "Товар 200",
+      "category": "бакалея",
+      "brand": "мясоедов",
+      "gold_code": 158381,
+      "img": "https://placehold.co/400x400@2x/maroon/white.png"
+    }
+  ]
 }
