@@ -1,16 +1,22 @@
 {
-  "goods": [
-    {
-    "category":"",
-    "name":"TEST",
-    "gold_code":"1111",
-    "img":""
-  },
-  {
-    "category":"",
-    "name":"TEST2",
-    "gold_code":"2222",
-    "img":""
-  },
-  ]
+   "users": [
+      {
+         "id": 1,
+         "firstName": "Sachin",
+         "lastName": "Tendulkar",
+         "age": 45
+      },
+      {
+         "id": 2,
+         "firstName": "Alastair",
+         "lastName": "Cook",
+         "age": 37
+      },
+      {
+         "id": 3,
+         "firstName": "Steve",
+         "lastName": "Smith",
+         "age": 32
+      }
+   ]
 }
